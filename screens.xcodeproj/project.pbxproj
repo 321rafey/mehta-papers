@@ -30,19 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B1360BEC2F68AA6500C8A307 /* screens */ = {
+		B1D62F312F92E44D003A8D15 /* Screens */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = screens;
-			sourceTree = "<group>";
-		};
-		B1360BFA2F68AA6700C8A307 /* screensTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = screensTests;
-			sourceTree = "<group>";
-		};
-		B1360C042F68AA6700C8A307 /* screensUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = screensUITests;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +65,7 @@
 		B1360BE12F68AA6500C8A307 = {
 			isa = PBXGroup;
 			children = (
-				B1360BEC2F68AA6500C8A307 /* screens */,
-				B1360BFA2F68AA6700C8A307 /* screensTests */,
-				B1360C042F68AA6700C8A307 /* screensUITests */,
+				B1D62F312F92E44D003A8D15 /* Screens */,
 				B1360BEB2F68AA6500C8A307 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +96,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B1360BEC2F68AA6500C8A307 /* screens */,
+				B1D62F312F92E44D003A8D15 /* Screens */,
 			);
 			name = screens;
 			packageProductDependencies = (
@@ -130,9 +118,6 @@
 			dependencies = (
 				B1360BF92F68AA6700C8A307 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B1360BFA2F68AA6700C8A307 /* screensTests */,
-			);
 			name = screensTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				B1360C032F68AA6700C8A307 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B1360C042F68AA6700C8A307 /* screensUITests */,
 			);
 			name = screensUITests;
 			packageProductDependencies = (
@@ -395,19 +377,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F997GT2U5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.screens.screens;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafeykashan.screens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -428,11 +413,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.screens.screensTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,7 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.screens.screensTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.screens.screensUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,6 +505,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.screens.screensUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
