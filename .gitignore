@@ -2,7 +2,9 @@
 build/
 DerivedData/
 *.xcuserstate
-**/xcuserdata/
+xcuserdata/
+**/xcuserdata/**
 .swiftpm/
 *.xccheckout
 mnt 2/
+"mnt 2"/
